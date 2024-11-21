@@ -17,5 +17,17 @@ public class Product {
     @Column (name="isBought")
     private boolean isBought;
 
+    public Long getId() {
+        return id;
+    }
 
+    public String getNameProduct() {
+        return nameProduct;
+    }
+
+    public boolean isBought() {
+        return isBought;
+    }
 }
+
+
