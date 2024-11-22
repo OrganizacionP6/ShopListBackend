@@ -40,13 +40,12 @@ El sistema ofrece las siguientes funcionalidades:
 ```plaintext
 src/main/java/
 ├── controller/         # Controladores REST
-├── service/            # Lógica de negocio
 ├── repository/         # Acceso a datos
-├── model/              # Entidades JPA
-└── application/        # Punto de entrada principal (Spring Boot Application)
+├── product/            # Lista de los productos
+└── listApplication/    # Punto de entrada principal (Spring Boot Application)
 ```
 
-🚀 Cómo ejecutar el proyecto
+## 🚀 **Cómo ejecutar el proyecto**
 Requisitos previos
 Tener instalado Java 17 o superior.
 Tener configurada una herramienta de construcción como Maven o utilizar el soporte integrado de IntelliJ IDEA.
@@ -87,7 +86,6 @@ Copiar código
 {
   "id": 1,
   "name": "Manzana",
-  "quantity": 10,
-  "price": 2.50
+  "bought": false,
 }
 ```
