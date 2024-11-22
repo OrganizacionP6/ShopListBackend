@@ -42,7 +42,7 @@ El sistema ofrece las siguientes funcionalidades:
 src/main/java/
 ├── controller/         # Controladores REST
 ├── repository/         # Acceso a datos
-├── product/            # Lista de los productos
+├── product/            # Nuestro modelo "Product"
 └── listApplication/    # Punto de entrada principal (Spring Boot Application)
 ```
 
