@@ -9,7 +9,7 @@ Este proyecto es el backend del sistema de la Lista de la Compra, que proporcion
 El sistema ofrece las siguientes funcionalidades:
 
 1. **Crear un producto:**  
-   Permite agregar un nuevo producto con un nombre, cantidad y precio.
+   Permite agregar un nuevo producto con un nombre.
    
 2. **Eliminar un producto:**  
    Permite eliminar un producto específico mediante su ID.
@@ -25,7 +25,8 @@ El sistema ofrece las siguientes funcionalidades:
 ## ⚙️ **Tecnologías utilizadas**
 
 - **Backend:**  
-  - **Java**  
+  - **Java**
+  - **JavaScript** 
   - **Spring Boot 3.3.5**  
   - **Spring Data JPA**  
   - **H2 Database**  
@@ -47,7 +48,7 @@ src/main/java/
 
 ## 🚀 **Cómo ejecutar el proyecto**
 Requisitos previos
-Tener instalado Java 17 o superior.
+Tener instalado Java 23.
 Tener configurada una herramienta de construcción como Maven o utilizar el soporte integrado de IntelliJ IDEA.
 Pasos para ejecutar:
 Clona este repositorio:
