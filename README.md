@@ -54,36 +54,46 @@ Pasos para ejecutar:
 Clona este repositorio:
 
 ```bash
-Copiar código
+
 git clone https://github.com/OrganizacionP6/ShoplistBackend.git
 cd ShoplistBackend
 ```
 Compila y ejecuta el proyecto usando Maven:
 
 ```bash
-Copiar código
+
 mvn spring-boot:run
 ```
 Accede a la API REST en:
 
 ```bash
-Copiar código
+
 http://localhost:8080
 ```
 La consola H2 está disponible en:
 
 ```bash
-Copiar código
+
 http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:testdb
 Usuario: sa
 Contraseña: (dejar en blanco)
 ```
-![Captura de pantalla 2024-11-22 114232](https://github.com/user-attachments/assets/3a7fa1da-31db-4c40-9d7a-a6d9028a69cb)
 
-🗄️ Ejemplo de un Producto
+
+## Rutas de la API
+
+|    Método   | Endpoint              | Descripción |
+|:-----------:|-----------------------|---------------------------------|
+|   POST      | /api/products         | Crear un producto.              |
+| DELETE      | /api/products/{id}    | Eliminar un producto por ID.    |
+| GET         | /api/products/{id}    | Buscar un producto por ID.      |
+| GET         | /api/products         | Obtener todos los productos.    |
+
+
+## 🗄️ Ejemplo de un Producto
 ```json
-Copiar código
+
 {
   "id": 1,
   "name": "Manzana",
