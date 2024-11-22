@@ -1,4 +1,4 @@
-const URL_BASE = "https://670ed0e63e7151861655dd83.mockapi.io/api/v1";
+const URL_BASE = "http://localhost:8080/api/products";
 
 export async function getAllItemsFromAPI() {
   const response = await fetch(URL_BASE + "/ingredients");
