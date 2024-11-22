@@ -40,10 +40,10 @@ El sistema ofrece las siguientes funcionalidades:
 
 ```plaintext
 src/main/java/
-├── controller/         # Controladores REST
-├── repository/         # Acceso a datos
-├── product/            # Nuestro modelo "Product"
-└── listApplication/    # Punto de entrada principal (Spring Boot Application)
+├── controller/          # Controladores REST
+├── repository/          # Acceso a datos
+├── product/             # Nuestro modelo "Product"
+└── ListApplication.java # Punto de entrada principal (Spring Boot Application)
 ```
 
 ## 🚀 **Cómo ejecutar el proyecto**
